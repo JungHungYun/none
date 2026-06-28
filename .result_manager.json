@@ -1,0 +1,19 @@
+{
+  "name": "Result Manager",
+  "description": "D:\result 폴더의 파일을 정리하는 자동 관리자",
+  "schedule": "0 3 * * *",
+  "workspace": "D:\\result\\workspace\\result-manager",
+  "config": {
+    "sourceDir": "D:\\result",
+    "archiveDir": "D:\\result\\archives",
+    "logDir": "D:\\result\\logs",
+    "outputDir": "D:\\result\\outputs",
+    "organizationRules": {
+      "byDate": true,
+      "byType": true,
+      "keepFilesDays": 30,
+      "compressArchives": true
+    }
+  },
+  "enabled": true
+}
